@@ -1,5 +1,5 @@
 ## 2nd July 2026: Wiring and schematics
-I began the project by creating a schematic for all the wiring of the components. I first decided to do this in KiCad however the pin numbering and labelling was confusing me so I switched over to tinker cad as I was using an arduino uno. This made it much easier to create a full schematic. Then I used really basic code to just simply test each component by produing a basic output on the simulation and confirmed the wiring was correct. 
+I began the project by creating a schematic for all the wiring of the components. I decided to use an arduino uno (I know it's outdated and there are better microcontroller boards) as the circuit components are very simple and I already had two availale. I first decided to do this in KiCad however the pin numbering and labelling was confusing me so I switched over to tinker cad as I was using an arduino uno. This made it much easier to create a full schematic. Then I used really basic code to just simply test each component by produing a basic output on the simulation and confirmed the wiring was correct. 
 
 Schematic:
 
@@ -38,5 +38,15 @@ I then moved on to creating the design of the product in Solidworks. I based my 
 Time Spent: 02:49
 
 
+## 4th July 2026: Fixing the circuit
+I had a look at the circuit again today and first checked everything against the shcematic. As far as I could tell, everything was wired correctly so I tested it again but no change. I then used my other arduino uno to see if I was usign a faulty uno but neither of them worked. So I decided to rewire everything but test it in little bits instead. I began with the LCD and this time I got it to turn on but it didn't diaply anything. After further inspection, it turned out I forgot to wire RW to gnd. Once I did this it functioned perfectly. Then I moved onto the LDR which worked perfectly as expected. Then I moved onto the servo which worked after a little bit of thinking as it turned out the code had the wrong pin for the servo. Then I tried the motor but I couldn't get it to work. 
+
+<img width="967" height="946" alt="image" src="https://github.com/user-attachments/assets/7988cf6c-5bde-45df-8ad2-1b8391de552a" />
+
+Lapse: https://lapse.hackclub.com/timelapse/DHAjXOzbIMxc     01:42:23
+
+Lapse: https://lapse.hackclub.com/timelapse/Rks5L6Anx1pu     01:06:49
+
+Time Spent: 02:49
 
 
