@@ -39,9 +39,13 @@ Time Spent: 02:49
 
 
 ## 4th July 2026: Fixing the circuit
-I had a look at the circuit again today and first checked everything against the shcematic. As far as I could tell, everything was wired correctly so I tested it again but no change. I then used my other arduino uno to see if I was usign a faulty uno but neither of them worked. So I decided to rewire everything but test it in little bits instead. I began with the LCD and this time I got it to turn on but it didn't diaply anything. After further inspection, it turned out I forgot to wire RW to gnd. Once I did this it functioned perfectly. Then I moved onto the LDR which worked perfectly as expected. Then I moved onto the servo which worked after a little bit of thinking as it turned out the code had the wrong pin for the servo. Then I tried the motor but I couldn't get it to work. 
+I had a look at the circuit again today and first checked everything against the shcematic. As far as I could tell, everything was wired correctly so I tested it again but no change. I then used my other arduino uno to see if I was usign a faulty uno but neither of them worked. So I decided to rewire everything but test it in little bits instead. I began with the LCD and this time I got it to turn on but it didn't diaply anything. After further inspection, it turned out I forgot to wire RW to gnd. Once I did this it functioned perfectly. Then I moved onto the LDR which worked perfectly as expected. Then I moved onto the servo which worked after a little bit of thinking as it turned out the code had the wrong pin for the servo. Then I tried the motor but I couldn't get it to work. I tried to power it all tough 12v but that failed to work too. After a lot of testing it turned out there was some conflict between the servo and the motor due to pin 9 so I changed the motor to connect to pin 6 for pwm and then rewired the l293d to the arduino and this time it worked. 
 
-<img width="967" height="946" alt="image" src="https://github.com/user-attachments/assets/7988cf6c-5bde-45df-8ad2-1b8391de552a" />
+<img width="1887" height="1000" alt="image" src="https://github.com/user-attachments/assets/24683faf-1409-4955-8603-46c2b4e3988f" />
+
+<img width="1897" height="998" alt="image" src="https://github.com/user-attachments/assets/1bab59d5-9dcc-4b8c-b715-1a51ba20feba" />
+
+<img width="1891" height="997" alt="image" src="https://github.com/user-attachments/assets/1c665162-1e5b-4e1a-8165-100169b87412" />
 
 Lapse: https://lapse.hackclub.com/timelapse/DHAjXOzbIMxc     01:42:23
 
