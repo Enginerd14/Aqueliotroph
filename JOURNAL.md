@@ -72,6 +72,10 @@ Time Spent: 01:52
 ## 5th July 2026: Designing the PCB
 I designed my PCB so that it could be like a shield and stack on top of the arduino uno. 
 
+<img width="952" height="881" alt="image" src="https://github.com/user-attachments/assets/44ac10e6-feb0-43fe-8fe8-32a3cd7c8000" />
+
+<img width="1100" height="875" alt="image" src="https://github.com/user-attachments/assets/7e98ee64-f4ba-4d33-8afe-41abc57138ef" />
+
 Lapse: https://lapse.hackclub.com/timelapse/jVmM2SpNe8C-
 
 Time Spent: 2:00
