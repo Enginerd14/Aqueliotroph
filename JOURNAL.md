@@ -39,18 +39,34 @@ Time Spent: 02:49
 
 
 ## 4th July 2026: Fixing the circuit
-I had a look at the circuit again today and first checked everything against the shcematic. As far as I could tell, everything was wired correctly so I tested it again but no change. I then used my other arduino uno to see if I was usign a faulty uno but neither of them worked. So I decided to rewire everything but test it in little bits instead. I began with the LCD and this time I got it to turn on but it didn't diaply anything. After further inspection, it turned out I forgot to wire RW to gnd. Once I did this it functioned perfectly. Then I moved onto the LDR which worked perfectly as expected. Then I moved onto the servo which worked after a little bit of thinking as it turned out the code had the wrong pin for the servo. Then I tried the motor but I couldn't get it to work. I tried to power it all tough 12v but that failed to work too. After a lot of testing it turned out there was some conflict between the servo and the motor due to pin 9 so I changed the motor to connect to pin 6 for pwm and then rewired the l293d to the arduino and this time it worked. 
+I had a look at the circuit again today and first checked everything against the shcematic. As far as I could tell, everything was wired correctly so I tested it again but no change. I then used my other arduino uno to see if I was usign a faulty uno but neither of them worked. So I decided to rewire everything but test it in little bits instead. I began with the LCD and this time I got it to turn on but it didn't diaply anything. After further inspection, it turned out I forgot to wire RW to gnd. Once I did this it functioned perfectly. Then I moved onto the LDR which worked perfectly as expected. Then I moved onto the servo which worked after a little bit of thinking as it turned out the code had the wrong pin for the servo. Then I tried the motor but I couldn't get it to work. I tried to power it all through 12v but that failed to work too. After a lot of testing it turned out there was some conflict between the servo and the motor due to pin 9 so I changed the motor to connect to pin 6 for pwm and then rewired the l293d to the arduino and this time it worked. 
+
+Lapse: https://lapse.hackclub.com/timelapse/w8Zyqny9Opo1     00:05:00
+
+Lapse: https://lapse.hackclub.com/timelapse/GnqO4-OK7IQY     01:17:00
+
+NOTE: It happened again :( after 8 minutes it stopped taking pictures. I have timestamped videos and pictures throughout the time (attached below) but no continuous video.
 
 <img width="1887" height="1000" alt="image" src="https://github.com/user-attachments/assets/24683faf-1409-4955-8603-46c2b4e3988f" />
+
+<img width="857" height="1174" alt="markup_1000019334" src="https://github.com/user-attachments/assets/3134ea07-4f70-429f-8cd8-f9de4b438944" />
+
+<img width="852" height="970" alt="markup_1000019333" src="https://github.com/user-attachments/assets/8f04e9d0-c597-4716-8446-0e981c7e5b89" />
+
+<img width="869" height="972" alt="markup_1000019332" src="https://github.com/user-attachments/assets/0d07799f-a1a0-4c53-bee5-5836965f8875" />
 
 <img width="1897" height="998" alt="image" src="https://github.com/user-attachments/assets/1bab59d5-9dcc-4b8c-b715-1a51ba20feba" />
 
 <img width="1891" height="997" alt="image" src="https://github.com/user-attachments/assets/1c665162-1e5b-4e1a-8165-100169b87412" />
 
-Lapse: https://lapse.hackclub.com/timelapse/DHAjXOzbIMxc     01:42:23
+I spent another half an hour at night that I didn't bother to use lapse for becuase it wasn't working so I have included a timestamped photo below.
 
-Lapse: https://lapse.hackclub.com/timelapse/Rks5L6Anx1pu     01:06:49
+<img width="854" height="1188" alt="markup_1000019342" src="https://github.com/user-attachments/assets/8e091b8f-6fe6-4b1b-9160-dc2e8b8444ac" />
 
-Time Spent: 02:49
+Video of working circuit:
+
+https://youtu.be/JYhf91gpHcE
+
+Time Spent: 01:52
 
 
