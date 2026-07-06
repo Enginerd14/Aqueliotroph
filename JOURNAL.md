@@ -80,3 +80,11 @@ Lapse: https://lapse.hackclub.com/timelapse/jVmM2SpNe8C-
 
 Time Spent: 2:00
 
+## 5th July 2026: Fixing the CAD model
+I changed the stand on the right to accomodate the motor and realised that the square hole for the extrusion was too small so resized that. As I was fixing the model, I realised I forgot the V-wheels for the plant pot carriage so will have to redesign that tomorrow :(
+
+<img width="952" height="881" alt="image" src="https://github.com/user-attachments/assets/44ac10e6-feb0-43fe-8fe8-32a3cd7c8000" />
+
+Lapse: https://lapse.hackclub.com/timelapse/tX8e8igjWN-x 
+
+Time Spent: 29:00
