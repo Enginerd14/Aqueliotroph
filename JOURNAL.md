@@ -87,4 +87,4 @@ I changed the stand on the right to accomodate the motor and realised that the s
 
 Lapse: https://lapse.hackclub.com/timelapse/tX8e8igjWN-x 
 
-Time Spent: 29:00
+Time Spent: 00:29
