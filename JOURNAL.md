@@ -88,3 +88,13 @@ I changed the stand on the right to accomodate the motor and realised that the s
 Lapse: https://lapse.hackclub.com/timelapse/tX8e8igjWN-x 
 
 Time Spent: 00:29
+
+## 75th July 2026: Fixing the CAD model
+I had to redesign the entire plant carriage assembly. This means I will have to reassemble the main assembly all over again tomorrow. 
+
+<img width="952" height="881" alt="image" src="https://github.com/user-attachments/assets/44ac10e6-feb0-43fe-8fe8-32a3cd7c8000" />
+
+Lapse: https://lapse.hackclub.com/timelapse/ZRIUK9M7NHi8
+
+Time Spent: 02:06
+
