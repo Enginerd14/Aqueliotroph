@@ -107,6 +107,8 @@ I added another motor to the breadbaord schematic on tinkercad as a placeholder 
 
 <img width="1380" height="829" alt="image" src="https://github.com/user-attachments/assets/9b5cb281-7713-4887-9e69-f4c9588de92e" />
 
-Lapse: https://lapse.hackclub.com/timelapse/WA_zX9wjQfdF
+Lapse: https://lapse.hackclub.com/timelapse/WA_zX9wjQfdF 
 
-Time Spent: 00:47
+(I added an extra 20mins to the final time becuase I spent some time adding spaces for the nuts for fixing the two halves of the carriage but forgot to record it with Lapse.)
+
+Time Spent: 01:07 
