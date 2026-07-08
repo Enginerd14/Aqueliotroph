@@ -81,20 +81,32 @@ Lapse: https://lapse.hackclub.com/timelapse/jVmM2SpNe8C-
 Time Spent: 2:00
 
 ## 5th July 2026: Fixing the CAD model
-I changed the stand on the right to accomodate the motor and realised that the square hole for the extrusion was too small so resized that. As I was fixing the model, I realised I forgot the V-wheels for the plant pot carriage so will have to redesign that tomorrow :(
+I changed the stand on the right to accomodate the motor and also a PCB and realised that the square hole for the extrusion was too small so resized that. As I was fixing the model, I realised I forgot the V-wheels for the plant pot carriage so will have to redesign that tomorrow :(
 
-<img width="952" height="881" alt="image" src="https://github.com/user-attachments/assets/44ac10e6-feb0-43fe-8fe8-32a3cd7c8000" />
+<img width="437" height="265" alt="image" src="https://github.com/user-attachments/assets/5861dd04-8386-4b2d-bac4-87881880d554" />
 
 Lapse: https://lapse.hackclub.com/timelapse/tX8e8igjWN-x 
 
 Time Spent: 00:29
 
 ## 7th July 2026: Fixing the CAD model
-I had to redesign the entire plant carriage assembly. This means I will have to reassemble the main assembly all over again tomorrow. 
+I first added a moisture sensor into the circuit. Then, I had to redesign the entire plant carriage assembly. This means I will have to reassemble the main assembly all over again tomorrow. 
 
-<img width="952" height="881" alt="image" src="https://github.com/user-attachments/assets/44ac10e6-feb0-43fe-8fe8-32a3cd7c8000" />
+<img width="820" height="499" alt="image" src="https://github.com/user-attachments/assets/7a0281d3-791b-411b-bd1c-f5735f899892" />
+
+<img width="477" height="297" alt="image" src="https://github.com/user-attachments/assets/c27099ea-3b83-48de-9b2c-e8e0b96491d9" />
 
 Lapse: https://lapse.hackclub.com/timelapse/ZRIUK9M7NHi8
 
 Time Spent: 02:06
 
+## 8th July 2026: Adding to circuit and fixing the CAD model
+I added another motor to the breadbaord schematic on tinkercad as a placeholder for a DC water pump. I will attempt to avoid buying and having to use the water pump and will attempt my servo method first but I'm keeping the option open. I then increased the height of the stands and fixed the final assembly. 
+
+<img width="1669" height="980" alt="image" src="https://github.com/user-attachments/assets/878217bd-4abd-4a0a-9fa6-7d46a7048a70" />
+
+<img width="1380" height="829" alt="image" src="https://github.com/user-attachments/assets/9b5cb281-7713-4887-9e69-f4c9588de92e" />
+
+Lapse: https://lapse.hackclub.com/timelapse/WA_zX9wjQfdF
+
+Time Spent: 00:47
