@@ -1,5 +1,5 @@
 ## 2nd July 2026: Wiring and schematics
-I began the project by creating a schematic for all the wiring of the components. I decided to use an arduino uno (I know it's outdated and there are better microcontroller boards) as the circuit components are very simple and I already had two availale. I first decided to do this in KiCad however the pin numbering and labelling was confusing me so I switched over to tinker cad as I was using an arduino uno. This made it much easier to create a full schematic. Then I used really basic code to just simply test each component by produing a basic output on the simulation and confirmed the wiring was correct. 
+I began the project by creating a schematic for all the wiring of the components. I decided to use an arduino uno: I know it's outdated and there are better microcontroller boards but the circuit components for this project are very simple and I already had two availale. I first decided to do this in KiCad however the pin numbering and labelling was confusing me so I switched over to tinker cad as I was using an arduino uno. This made it much easier to create a full schematic. Then I used really basic code to just simply test each component by produing a basic output on the simulation and confirmed the wiring was correct. 
 
 Schematic:
 
@@ -10,7 +10,7 @@ Lapse: https://lapse.hackclub.com/timelapse/tBaE92BHizNh
 Time Spent: 00:41
 
 ## 2nd July 2026: Building the circuit 
-I asssembled the circuit using the arduino uno kit I already had and following my functioning schematic. However after uploading the code to test it, the components did not seem to be working. I could hear  slight clicking sound from the servo but no movement, the motor did not seem to do anything and the LCD was not even turning on so I had no idea whether the LDR was functioning. I double checked the wiring agianst the schematic and couldn't find an issue. I will troubleshoot each component individually later. 
+I asssembled the circuit using the arduino uno kit I already had and following my functioning schematic. However after uploading the code to test it, the components did not seem to be working. I could hear a slight clicking sound from the servo but no movement, the motor did not seem to do anything and the LCD was not even turning on so I had no idea whether the LDR was functioning. I double checked the wiring against the schematic and couldn't find an issue. I will troubleshoot each component individually later when I have more time. 
 
 Circuit:
 
@@ -27,7 +27,7 @@ Timestamped photo:
 Time Spent: 00:36
 
 ## 2nd and 3rd July 2026: Designing the model in CAD (Solidworks)
-I then moved on to creating the design of the product in Solidworks. I based my design of components I already had for a previous project such as 600mm 2020 aluminium extrusion and 6mm pulley belt and pulleys. 
+I moved on to creating the design of the product in Solidworks to take a break from circuitry. I based my design of components I already had for a previous project such as 600mm 2020 aluminium extrusion and 6mm pulley belt and pulleys. I created a gantry carraige for the plant to sit on and I plan to attach the pulley belt to this carriage so that as the motor moves, the plant carriage would move too. This will allow it to change positions to optimse sunlight. I then began creating the stands tha would suspend the extrusion in the air. I added in a cut out at the top for the limit switches. Then i moved on to creating a simple rough stand and container to visualise the watering system. I will likely not 3D print this and will use scrap materials around the house for this stand. The idea is I will use the servo to crimp the tube to stop water flowing and then uncrimp it and let gravity take control to water the plant. Once I had made the stand for the water container, I had to edit the stands of the extrusion for the servo. I also filleted the edges to improve overall appearance. 
 
 <img width="967" height="946" alt="image" src="https://github.com/user-attachments/assets/7988cf6c-5bde-45df-8ad2-1b8391de552a" />
 
@@ -37,9 +37,8 @@ I then moved on to creating the design of the product in Solidworks. I based my 
 
 Time Spent: 02:49
 
-
 ## 4th July 2026: Fixing the circuit
-I had a look at the circuit again today and first checked everything against the shcematic. As far as I could tell, everything was wired correctly so I tested it again but no change. I then used my other arduino uno to see if I was usign a faulty uno but neither of them worked. So I decided to rewire everything but test it in little bits instead. I began with the LCD and this time I got it to turn on but it didn't diaply anything. After further inspection, it turned out I forgot to wire RW to gnd. Once I did this it functioned perfectly. Then I moved onto the LDR which worked perfectly as expected. Then I moved onto the servo which worked after a little bit of thinking as it turned out the code had the wrong pin for the servo. Then I tried the motor but I couldn't get it to work. I tried to power it all through 12v but that failed to work too. After a lot of testing it turned out there was some conflict between the servo and the motor due to pin 9 so I changed the motor to connect to pin 6 for pwm and then rewired the l293d to the arduino and this time it worked. 
+I had a look at the circuit again today and first checked everything against the schematic. As far as I could tell, everything was wired correctly so I tested it again but no change. I then used my other arduino uno to see if I was usign a faulty uno but neither of them worked. So I decided to rewire everything but test it in little bits instead. I began with the LCD and this time I got it to turn on but it didn't diaply anything. After further inspection, it turned out I forgot to wire RW to gnd. Once I did this it functioned perfectly. Then I moved onto the LDR which worked perfectly as expected. Then I moved onto the servo which worked after a little bit of thinking as it turned out the code had the wrong pin for the servo. Then I tried the motor but I couldn't get it to work. I tried to power it all through 12v but that failed to work too. After a lot of testing it turned out there was some conflict between the servo and the motor due to pin 9 so I changed the motor to connect to pin 6 for pwm and then rewired the l293d to the arduino and this time it worked. 
 
 Lapse: https://lapse.hackclub.com/timelapse/w8Zyqny9Opo1     00:05:00
 
@@ -70,7 +69,7 @@ https://youtu.be/JYhf91gpHcE
 Time Spent: 01:52
 
 ## 5th July 2026: Designing the PCB
-I designed my PCB so that it could be like a shield and stack on top of the arduino uno. 
+I designed my PCB so that it could be like a shield and stack on top of the arduino uno. I used an arduino uno footprint as a template to place everything in the correct place before removing the footprint and adding in pin sockets where they would be on the arduino uno. I then added in all the trace lines to complete the PCB.
 
 <img width="952" height="881" alt="image" src="https://github.com/user-attachments/assets/44ac10e6-feb0-43fe-8fe8-32a3cd7c8000" />
 
@@ -90,7 +89,7 @@ Lapse: https://lapse.hackclub.com/timelapse/tX8e8igjWN-x
 Time Spent: 00:29
 
 ## 7th July 2026: Fixing the CAD model
-I first added a moisture sensor into the circuit. Then, I had to redesign the entire plant carriage assembly. This means I will have to reassemble the main assembly all over again tomorrow. 
+I first added a moisture sensor into the circuit. Then, I had to redesign the entire plant carriage assembly. This means I will have to reassemble the main assembly all over again tomorrow. To add v wheels to the plant carriage I had to spit it into two bodies and will use a 40mm M5 screw to fix the two bodies together adding v wheels inbetween. 
 
 <img width="820" height="499" alt="image" src="https://github.com/user-attachments/assets/7a0281d3-791b-411b-bd1c-f5735f899892" />
 
@@ -114,7 +113,7 @@ Lapse: https://lapse.hackclub.com/timelapse/WA_zX9wjQfdF
 Time Spent: 01:07 
 
 ## 9th July 2026: Fixing Kicad Schematic and PCB
-I added in the final components to the schematic and realised that the PCB footrpint for the uno was reversed. This meant I had to remake the entire PCB and shematic using a template instead of a footprint. 
+I added in the final components to the schematic and realised that the PCB footrpint for the uno was reversed. This meant I had to remake the entire PCB and schematic using a template instead of a footprint. This was harder than using the reversed footrpint as the top row of digital pins were heavily used so it was difficult to add traces that didn't intersect. Eventually I resorted to oversizing the PCB so that I didn't have to use any wires or 0ohm resistors as jumpers. 
 
 <img width="1004" height="590" alt="image" src="https://github.com/user-attachments/assets/0bc3a2c1-c4fe-4807-96e1-0caa17c79df7" />
 
