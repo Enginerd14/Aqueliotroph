@@ -112,3 +112,13 @@ Lapse: https://lapse.hackclub.com/timelapse/WA_zX9wjQfdF
 (I added an extra 20mins to the final time becuase I spent some time adding spaces for the nuts for fixing the two halves of the carriage but forgot to record it with Lapse.)
 
 Time Spent: 01:07 
+
+## 9th July 2026: Fixing Kicad Schematic and PCB
+I added in the final components to the schematic and realised that the PCB footrpint for the uno was reversed. This meant I had to remake the entire PCB and shematic using a template instead of a footprint. 
+
+
+Lapse: https://lapse.hackclub.com/timelapse/YqrEKAufjbH9
+
+(Lapse or google or smth crashed halfway through and I didn't realise so I have added 30mins on to final time for the work that was not recorded.)
+
+Time Spent: 01:07 
