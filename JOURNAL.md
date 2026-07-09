@@ -116,9 +116,14 @@ Time Spent: 01:07
 ## 9th July 2026: Fixing Kicad Schematic and PCB
 I added in the final components to the schematic and realised that the PCB footrpint for the uno was reversed. This meant I had to remake the entire PCB and shematic using a template instead of a footprint. 
 
+<img width="1004" height="590" alt="image" src="https://github.com/user-attachments/assets/0bc3a2c1-c4fe-4807-96e1-0caa17c79df7" />
+
+<img width="1089" height="915" alt="image" src="https://github.com/user-attachments/assets/e1444fca-3fa1-49e0-9b21-61c467bed61c" />
+
+<img width="853" height="600" alt="image" src="https://github.com/user-attachments/assets/2ead55f2-5a0d-4cbe-a4a7-c2330dc323c7" />
 
 Lapse: https://lapse.hackclub.com/timelapse/YqrEKAufjbH9
 
 (Lapse or google or smth crashed halfway through and I didn't realise so I have added 30mins on to final time for the work that was not recorded.)
 
-Time Spent: 01:07 
+Time Spent: 01:42 
