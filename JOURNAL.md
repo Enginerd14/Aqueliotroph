@@ -127,7 +127,7 @@ Lapse: https://lapse.hackclub.com/timelapse/YqrEKAufjbH9
 
 Time Spent: 01:42 
 
-## 9th July 2026: Fixing Kicad Schematic and PCB
+## 9th Julyi 2026: Fixing Kicad Schematic and PCB
 I checked the size of the PCB and found that it was around 55mmx85mm which is well below JLCPCB's limit. Then I ckecked whether the space in the stand that will be 3D printed is big enough for the PCB and it was perfectly sized. Afterwards, I realised I forgot the limit switches so I went back to the breadboard on tinkercad and added them to pin A2 and A3 as I ran out of digital pins. Then I added in the code to be able to test the switches and found that they worked as expected. Then I added in two 1x03 pin sockets to the PCB for the limit switches to connect to. 
 
 <img width="1674" height="1006" alt="image" src="https://github.com/user-attachments/assets/6cd8bcc3-95f1-469c-98a5-afdc2f55a62b" />
