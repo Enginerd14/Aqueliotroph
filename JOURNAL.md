@@ -127,7 +127,7 @@ Lapse: https://lapse.hackclub.com/timelapse/YqrEKAufjbH9
 
 Time Spent: 01:42 
 
-## 10th July 2026: Fixing Kicad Schematic and PCB
+## 9th July 2026: Fixing Kicad Schematic and PCB
 I checked the size of the PCB and found that it was around 55mmx85mm which is well below JLCPCB's limit. Then I ckecked whether the space in the stand that will be 3D printed is big enough for the PCB and it was perfectly sized. Afterwards, I realised I forgot the limit switches so I went back to the breadboard on tinkercad and added them to pin A2 and A3 as I ran out of digital pins. Then I added in the code to be able to test the switches and found that they worked as expected. Then I added in two 1x03 pin sockets to the PCB for the limit switches to connect to. 
 
 <img width="1674" height="1006" alt="image" src="https://github.com/user-attachments/assets/6cd8bcc3-95f1-469c-98a5-afdc2f55a62b" />
@@ -141,3 +141,14 @@ I checked the size of the PCB and found that it was around 55mmx85mm which is we
 <img width="901" height="876" alt="image" src="https://github.com/user-attachments/assets/b5b898e3-bd8a-4cd6-8de9-1fa979e3bf29" />
 
 Time Spent: 00:47 
+
+## 10th July 2026: Fixing Kicad Schematic and PCB
+I began writing the code for the project usign VS code and recording my time spent using hackatime. I wrote the code so that the project functions like this: 
+
+- To track sunlight: the Plant pot carriage will have an LDR and will move to 5 different positions on the aluminium extrusion and will record where light was highest and will move to that position to optimse sunlight
+- To water plant: I decided to use the pump method as everything about it is just simpler and more foolproof. This works by just using the soil moisture sensor to detect low moisture levels in soil and trigger pump to release water
+- I then added in code to display the details on the LCD
+
+<img width="521" height="1344" alt="image" src="https://github.com/user-attachments/assets/56645502-ff47-4361-b4f6-f90a161829a4" />
+
+Time Spent: 01:43 
