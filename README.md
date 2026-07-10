@@ -1,6 +1,8 @@
 # Aqueliotroph
 Automated plant watering and sun tracking system to optimise conditions for growth
 
+I made this project becuase I always forget to water my plants and they never get enough sunlight, especially here in the UK. As a result they never survive :(. The Aqueliotroph system directly combats this by ving the plant to optimise light and watering the plant when soil mositure is low. 
+
 Inspiration behind the Name: 
 
 <img width="397" height="95" alt="image" src="https://github.com/user-attachments/assets/f15878cf-9438-4766-8e48-df3b3f46fc30" />
