@@ -26,9 +26,9 @@ Inspiration behind the Name:
 <img width="901" height="876" alt="image" src="https://github.com/user-attachments/assets/c0a416ec-5941-4664-b372-707d2de54096" />
 
 ## BOM
-| Item | Qty | Need to Buy | Total Price (£) | Link |
-|------|----:|:-----------:|----------------:|------|
-| 600mm Aluminium extrusion | 1 | N | 0.00 | N/A |
+| Item | Qty | Need to Buy | Total Price (£) | Link | **TOTAL (£)** | **TOTAL ($)** |
+|------|----:|:-----------:|----------------:|------:|--------------:|--------------|
+| 600mm Aluminium extrusion | 1 | N | 0.00 | N/A | 20.59 | 27.60|
 | Driver Pulley | 1 | N | 0.00 | N/A |
 | Idler Pulley | 1 | N | 0.00 | N/A |
 | Flexible plastic tube | 1 | Y | 1.62 | [ID8 x OD10mm Flexible pipe](https://www.aliexpress.com/item/1005009698880250.html) |
