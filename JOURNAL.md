@@ -152,3 +152,16 @@ I began writing the code for the project usign VS code and recording my time spe
 <img width="521" height="1344" alt="image" src="https://github.com/user-attachments/assets/56645502-ff47-4361-b4f6-f90a161829a4" />
 
 Time Spent: 01:43 
+
+## 16th July 2026: Fixing the models
+The models I had designed were requiring too much filament and time to print mainly becuase of the supports due to overhangs. Thus, I decided to redesign  the parts completely. As I am now using the pump instead of the servo to water the plant I reduced the length of the stand and removed the overhang so no need for support there. Then I looked at the plant carriage. I took inspiration from my pen plotter project and compeltely simplified it so that there were no overhangs. I couldln't really do much on the other stand but there was one overhnag that I managed to remove. I then had to recreate the assembly but this time it was much smalelr and simpler as I was not using the servo and gravity to water the plant. 
+
+<img width="1487" height="984" alt="image" src="https://github.com/user-attachments/assets/8b0a5004-6456-4572-8ed5-d0dcc7046deb" />
+
+<img width="1493" height="336" alt="image" src="https://github.com/user-attachments/assets/3b046597-4b5b-4570-8dfa-55e3bb96b81f" />
+
+<img width="1512" height="408" alt="image" src="https://github.com/user-attachments/assets/707d6126-6a9a-4bbe-81ef-622924b10aa8" />
+
+Time Spent: 00:45
+
+
