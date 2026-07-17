@@ -142,7 +142,7 @@ I checked the size of the PCB and found that it was around 55mmx85mm which is we
 
 Time Spent: 00:47 
 
-## 10th July 2026: Fixing Kicad Schematic and PCB
+## 10th July 2026: Writing the code
 I began writing the code for the project usign VS code and recording my time spent using hackatime. I wrote the code so that the project functions like this: 
 
 - To track sunlight: the Plant pot carriage will have an LDR and will move to 5 different positions on the aluminium extrusion and will record where light was highest and will move to that position to optimse sunlight
