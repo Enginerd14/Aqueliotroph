@@ -9,7 +9,7 @@ Inspiration behind the Name:
 
 ## 3D model
 
-<img width="1380" height="829" alt="image" src="https://github.com/user-attachments/assets/0d2f023a-eb7d-4d35-a6e7-914f9c8eeeac" />
+<img width="1487" height="984" alt="image" src="https://github.com/user-attachments/assets/4ae9e124-efaf-45dd-b49c-dc0625132294" />
 
 ## Schematic
 
