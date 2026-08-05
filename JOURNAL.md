@@ -143,10 +143,10 @@ I checked the size of the PCB and found that it was around 55mmx85mm which is we
 Time Spent: 00:47 
 
 ## 10th July 2026: Writing the code
-I began writing the code for the project usign VS code and recording my time spent using hackatime. I wrote the code so that the project functions like this: 
+I began writing the code for the project using VS code and recording my time spent using hackatime. I wrote the code so that the project functions like this: 
 
-- To track sunlight: the Plant pot carriage will have an LDR and will move to 5 different positions on the aluminium extrusion and will record where light was highest and will move to that position to optimse sunlight
-- To water plant: I decided to use the pump method as everything about it is just simpler and more foolproof. This works by just using the soil moisture sensor to detect low moisture levels in soil and trigger pump to release water
+- To track sunlight: the Plant pot carriage will have an LDR and will move to 5 different positions on the aluminium extrusion and will record where light was highest and will move to that position to optimise sunlight
+- To water plant: I decided to use the pump method as everything about it is just simpler and more fool proof. This works by just using the soil moisture sensor to detect low moisture levels in soil and trigger pump to release water
 - I then added in code to display the details on the LCD
 
 <img width="521" height="1344" alt="image" src="https://github.com/user-attachments/assets/56645502-ff47-4361-b4f6-f90a161829a4" />
@@ -154,7 +154,7 @@ I began writing the code for the project usign VS code and recording my time spe
 Time Spent: 01:43 
 
 ## 16th July 2026: Fixing the models
-The models I had designed were requiring too much filament and time to print mainly becuase of the supports due to overhangs. Thus, I decided to redesign  the parts completely. As I am now using the pump instead of the servo to water the plant I reduced the length of the stand and removed the overhang so no need for support there. Then I looked at the plant carriage. I took inspiration from my pen plotter project and compeltely simplified it so that there were no overhangs. I couldln't really do much on the other stand but there was one overhnag that I managed to remove. I then had to recreate the assembly but this time it was much smalelr and simpler as I was not using the servo and gravity to water the plant. 
+The models I had designed were requiring too much filament and time to print mainly because of the supports due to overhangs. Thus, I decided to redesign  the parts completely. As I am now using the pump instead of the servo to water the plant I reduced the length of the stand and removed the overhang so no need for support there. Then I looked at the plant carriage. I took inspiration from my pen plotter project and completely simplified it so that there were no overhangs. I couldn't really do much on the other stand but there was one overhang that I managed to remove. I then had to recreate the assembly but this time it was much smaller and simpler as I was not using the servo and gravity to water the plant. 
 
 <img width="1487" height="984" alt="image" src="https://github.com/user-attachments/assets/8b0a5004-6456-4572-8ed5-d0dcc7046deb" />
 
@@ -163,5 +163,20 @@ The models I had designed were requiring too much filament and time to print mai
 <img width="1512" height="408" alt="image" src="https://github.com/user-attachments/assets/707d6126-6a9a-4bbe-81ef-622924b10aa8" />
 
 Time Spent: 00:45
+
+## 5th August 2026: Responding to review
+
+I removed the servo from my PCB and schematic and updated the BOM. Then I looked into adding a pulley belt into my CAD model to show the movement of the carriage. The idea is that when the motor rotates, it pulls on the pulley belt which is fastened to the plant carriage thus dragging the plant carriage along with it. The last image uses the red pen to show how the belt will attach to the carriage (sorry my CAD skills aren't good enough to add that in the model directly).
+
+<img width="1440" height="875" alt="image" src="https://github.com/user-attachments/assets/04f6f824-de95-4e85-99ac-2755b8caf644" />
+
+<img width="1210" height="752" alt="image" src="https://github.com/user-attachments/assets/8f1cca4b-ac93-4197-9349-bca7d6ad205b" />
+
+<img width="1795" height="1026" alt="image" src="https://github.com/user-attachments/assets/f5edb8af-67b8-460d-9ea5-f463270ef854" />
+
+https://lapse.hackclub.com/timelapse/5MZtIGj5UeVw
+
+Time Spent: 00:22
+
 
 
