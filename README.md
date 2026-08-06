@@ -9,38 +9,38 @@ Inspiration behind the Name:
 
 ## 3D model
 
-<img width="1487" height="984" alt="image" src="https://github.com/user-attachments/assets/4ae9e124-efaf-45dd-b49c-dc0625132294" />
+<img width="1450" height="976" alt="image" src="https://github.com/user-attachments/assets/8620412a-f4c4-4774-9bb2-7b1130742f06" />
 
 ## Schematic
 
-<img width="1674" height="1006" alt="image" src="https://github.com/user-attachments/assets/68081ebb-076c-4c07-806b-9fc3cc32d9d8" />
+<img width="1873" height="1059" alt="image" src="https://github.com/user-attachments/assets/7ac70d64-059c-4923-87a6-2939cd0534fb" />
 
-<img width="1304" height="689" alt="image" src="https://github.com/user-attachments/assets/12447185-46d3-4b8e-b4b5-6e7b2a249560" />
+<img width="1188" height="581" alt="image" src="https://github.com/user-attachments/assets/5b67c3ad-2251-4613-8fe7-ce6ab418ae04" />
 
 ## PCB
 
-<img width="909" height="753" alt="image" src="https://github.com/user-attachments/assets/3e1eb478-706f-4ed1-821c-2495cab20d7b" />
+<img width="1007" height="837" alt="image" src="https://github.com/user-attachments/assets/52e77e50-5daa-4806-ab06-585d5145aeb6" />
 
-<img width="1333" height="1112" alt="image" src="https://github.com/user-attachments/assets/6010d98f-8305-46e8-b487-764236f3833f" />
+<img width="1329" height="1089" alt="image" src="https://github.com/user-attachments/assets/8444e800-7c4e-4bf4-b276-e520bb02cd33" />
 
-<img width="901" height="876" alt="image" src="https://github.com/user-attachments/assets/c0a416ec-5941-4664-b372-707d2de54096" />
+<img width="1387" height="829" alt="image" src="https://github.com/user-attachments/assets/36e109bc-fdb9-4cb4-844f-3fbef99f6fed" />
 
 ## BOM
 | Item | Qty | Need to Buy | Total Price (£) | Link | **TOTAL (£)** | **TOTAL ($)** |
 |------|----:|:-----------:|----------------:|------:|--------------:|--------------|
-| 600mm Aluminium extrusion | 1 | N | 0.00 | N/A | 20.59 | 27.60|
+| 600mm Aluminium extrusion | 1 | N | 0.00 | N/A | 5 | 6.73|
 | Driver Pulley | 1 | N | 0.00 | N/A |
 | Idler Pulley | 1 | N | 0.00 | N/A |
-| Flexible plastic tube | 1 | Y | 1.62 | [ID8 x OD10mm Flexible pipe](https://www.aliexpress.com/item/1005009698880250.html) |
-| DC motor | 1 | Y | 2.01 | [12V DC 60rpm motor](https://www.aliexpress.com/item/1005005247763700.html) |
-| DC water Pump | 1 | Y | 3.33 | [12V DC water pump](https://www.aliexpress.com/item/1005012473117509.html) |
-| Limit Switches | 3 | Y | 1.00 | [5pcs Limit Switches](https://www.aliexpress.com/item/1005008233825861.html) |
-| Moisture sensor | 1 | Y | 0.59 | [Moisture Sensor](https://www.aliexpress.com/item/1005006714046417.html) |
-| 470µF Capacitor | 2 | Y | 1.15 | [10pcs 470µF Capacitor](https://www.aliexpress.com/item/1005005558643765.html) |
-| 0.1µF Capacitor | 1 | Y | 0.89 | [100pcs 0.1µF Capacitor](https://www.aliexpress.com/item/1005006439471688.html) |
+| Flexible plastic tube | 1 | N | 0.00 | [N/A|
+| DC motor | 1 | N | 0.00 | [N/A |
+| DC water Pump | 1 | N | 0.00 | [N/A |
+| Limit Switches | 3 | N | 0.00 | [N/A |
+| Moisture sensor | 1 |N | 0.00 | N/A |
+| Wire | 2m | N | 0.00 | N/A |
+| 470µF Capacitor | 2 | N | 0.00 | N/A|
+| 0.1µF Capacitor | 1 | N | 0.00 | N/A |
 | LCD Display | 1 | N | 0.00 | N/A |
 | 12V 3A Power Supply | 1 | N | 0.00 | N/A |
-| Servo | 1 | N | 0.00 | N/A |
 | L293D | 1 | N | 0.00 | N/A |
 | Arduino Uno | 1 | N | 0.00 | N/A |
 | LDR | 1 | N | 0.00 | N/A |
@@ -48,4 +48,4 @@ Inspiration behind the Name:
 | 220Ω Resistor | 1 | N | 0.00 | N/A |
 | 250K Potentiometer | 1 | N | 0.00 | N/A |
 | PCB | 1 | Y | 5.00 | N/A |
-| 3D Printed Parts (Delivery) | N/A | Y | 5.00 | N/A |
+
