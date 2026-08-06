@@ -184,10 +184,9 @@ My computer crashed and didn't save any of the work so I had to redo the belt. T
 
 <img width="1385" height="771" alt="image" src="https://github.com/user-attachments/assets/3eb62067-2dea-4f91-b22b-cf8a4dc4c9c6" />
 
+https://lapse.hackclub.com/timelapse/rQG-F8ZIK_1B
 
-https://lapse.hackclub.com/timelapse/5MZtIGj5UeVw
-
-Time Spent: 00:41
+Time Spent: 00:42
 
 
 
