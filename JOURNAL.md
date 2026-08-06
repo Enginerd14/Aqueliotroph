@@ -178,5 +178,16 @@ https://lapse.hackclub.com/timelapse/5MZtIGj5UeVw
 
 Time Spent: 00:22
 
+## 6th August 2026: Responding to review
+
+My computer crashed and didn't save any of the work so I had to redo the belt. Then I modelled a zip tie to show how the motor will be fixed to the 3D printed parts and finished off by adding the PCB mounted on the Arduino UNO R3. 
+
+<img width="1385" height="771" alt="image" src="https://github.com/user-attachments/assets/3eb62067-2dea-4f91-b22b-cf8a4dc4c9c6" />
+
+
+https://lapse.hackclub.com/timelapse/5MZtIGj5UeVw
+
+Time Spent: 00:41
+
 
 
