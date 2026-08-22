@@ -29,9 +29,9 @@ Inspiration behind the Name:
 
 > **Note:** Only the PCB needs to be purchased. I already have all other parts available, so the cost should only be around **£5 / $7**.
 
-| Item | Qty | Need to Buy | Price (£) | Link |
-|---|---:|:---:|---:|---|
-| 600mm Aluminium extrusion | 1 | No | £7.00 | [Al extrusion 600mm](https://www.ebay.co.uk/itm/305167092557?var=604105049024) |
+| Item | Qty | Need to Buy | Price (£) | Link | Total (£) | Total ($) |
+|---|---:|:---:|---:|---:|---:|---
+| 600mm Aluminium extrusion | 1 | No | £7.00 | [Al extrusion 600mm](https://www.ebay.co.uk/itm/305167092557?var=604105049024) |52.67 |71.84
 | Belt Pulley | 1 | No | £4.99 | [Belt Pulley](https://www.aliexpress.com/item/1005010636842055.html) |
 | Belt idler | 1 | No | £3.85 | [Idler Pulley](https://www.aliexpress.com/item/1005008093251681.html) |
 | V Wheels | 4 | No | £2.44 | [V Wheels](https://www.aliexpress.com/item/1005004275676552.html) |
